@@ -1,0 +1,8 @@
+{
+    "token": "SEUTOKEN",
+    "defaultPrefix": "SEUPREFIX",
+    "owners": [
+        "SEUID"
+    ],
+    "connect_string": "LINKDADATABASE"
+}
