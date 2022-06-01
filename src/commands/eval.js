@@ -19,7 +19,7 @@ module.exports = class Eval {
         }
 
         if (!args[0]) {
-            message.reply({ content: `O uso correto do comando é **&eval (código)**.` })
+            message.reply({ content: `O uso correto do comando é **${this.client.config.defaultPrefix}eval (código)**.` })
             return;
         }
 
