@@ -2,7 +2,7 @@ const { Schema, model } = require("mongoose");
 
 const exampleSchema = Schema({
     userId: String,
-    Numero: number,
+    Numero: Number,
     TrueOrFalse: Boolean,
 })
 
